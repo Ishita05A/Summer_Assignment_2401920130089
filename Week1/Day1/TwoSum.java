@@ -22,6 +22,6 @@ public class TwoSum {
         int[] arr = {2,7,11,15};
         int[] ans = twoSum(arr,9);
         System.out.println(ans[0]+" "+ans[ans.length-1]);
-    }sbhad
+    }
     
 }
