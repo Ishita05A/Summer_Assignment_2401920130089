@@ -1,6 +1,11 @@
 package Week1.Day3;
 
 public class MoveZeroInEnd {
+    static void display(int[] arr){
+        for(int i = 0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+    }
     static void moveZeroes(int[] arr) {
         int n = arr.length;
         int j = -1;
@@ -25,7 +30,7 @@ public class MoveZeroInEnd {
     public static void main(String[] args) {
         int[] arr = {0,1,0,3,12};
         moveZeroes(arr);
-        
+
     }
     
 }
