@@ -1,5 +1,5 @@
 package Week1.OOPS;
-    public interface LibararyUser{
+    public interface LibraryUser{
         void registerAccount();
         void requestBook();
     }
