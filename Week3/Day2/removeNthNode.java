@@ -27,6 +27,7 @@ public class removeNthNode {
             slow.next = slow.next.next;
         }
         return temp.next;
+        
 
     }
 
